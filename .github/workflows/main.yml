@@ -17,4 +17,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
+          isocalendar: "yes"
+          isocalendar-duration: "half-year"
+          isocalendar-theme: "dark"
